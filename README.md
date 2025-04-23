@@ -70,8 +70,8 @@ This API allows airline companies to:
 ---
 
 ## Links
-**Swagger Docs:**  
-**YouTube Link:**
+**Swagger Docs:** [https://gd-airline-ticket-api.azurewebsites.net/swagger/index.html](https://gd-airline-ticket-api.azurewebsites.net/swagger/index.html)
+**YouTube Link:** [https://youtu.be/mKkkHSPqrtk](https://youtu.be/mKkkHSPqrtk)
 
 ---
 ## Author
