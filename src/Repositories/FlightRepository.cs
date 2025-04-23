@@ -45,7 +45,7 @@ namespace src.Repositories
 
             var tickets = await _context.Tickets
                 .Include(t => t.Passenger)
-                .Where(t => t.Flight.Id == flight.Id) // önemli! ID üzerinden ilişki
+                .Where(t => t.Flight.Id == flight.Id && t.IsCheckedIn == true)
                 .Skip((page - 1) * PageSize)
                 .Take(PageSize)
                 .Select(t => new PassengerInfoResponseDTO
